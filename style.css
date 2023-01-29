@@ -1,0 +1,77 @@
+/* default setting */
+html
+{
+    font-family:'Times New Roman', Times, serif;
+}
+header
+{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 10px;
+}
+/* decent selector or combinator selector */
+header h1
+{
+    font-weight: 400;
+}
+nav{
+     width:20rem;                                                   /* 1rem is equal to the size of one root(html) character*/
+     position:relative;
+     top:1rem;
+}
+
+ul
+{
+    display:flex;
+    justify-content:space-between;
+
+}
+li
+{
+    list-style:none ;
+    font-size:1.5rem;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover
+{
+    color:red;
+}
+section img
+{
+     width:100%;                                     /* percentage w.r.t root element hota hai  , viewport height---vh and viewport width---vw w.r.t browser screen size it is dynamic in natur okk               */
+
+}
+section
+{
+    margin:0px 10px;   
+}
+article
+{
+    background-color:cyan;
+    display:flex;
+    justify-content:space-evenly;
+    margin: 0px 10px;
+}
+.content img
+{
+    width:33%;
+    height:33%;
+    border-radius:15px;
+}
+.content
+{
+    text-align:center;
+
+}
+footer 
+{
+    background-color:black;
+    text-align: center;
+    align-items: center;
+    margin:0px 10px;
+    color:red;
+}
+
